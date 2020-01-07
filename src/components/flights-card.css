@@ -1,0 +1,66 @@
+.flight-card{
+    height: 90px;
+    width: 80vw;
+    border: 0.5px solid rgb(209, 207, 207);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+    display: grid;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1515063312047-b40b86035e20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+    
+}
+
+.big{
+    height: 350px;
+    display: grid;
+}
+
+.small:hover{
+    transition: opacity .2s ease-in-out;
+    opacity: 0.9;
+}
+
+.big-text-big{
+    font-size: 1.5em;
+    display: block;
+}
+.big-text-small{
+    font-size: 1.1em;
+
+}
+.flight-card-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.big-card-inner{
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+}
+.right-text{
+    display: grid;
+    justify-items: right;
+}
+
+.description{
+    font-size: 1.3em;
+    
+}
+.description-text{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.fare{
+display: grid;
+justify-items: right;
+font-size: 1.5em;
+font-weight: bold;
+
+}

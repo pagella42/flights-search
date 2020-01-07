@@ -1,0 +1,23 @@
+#header-cont{
+    width: 100%;
+    height: 60px;
+    background-color: teal;
+    display: grid;
+    align-items: center;
+}
+
+
+.homeIcon, .searchIcon{
+    height: 30px;
+    widows: 30px;
+    color: rgb(14, 37, 37);
+    cursor: pointer;
+}
+
+.header-inner{
+    padding-left: 10vw;
+    display: grid;
+    grid-template-columns:  80px 80px;
+
+
+}

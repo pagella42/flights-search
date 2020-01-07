@@ -1,0 +1,26 @@
+.card-cont{
+    width: 391px;
+    height: 248px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: 500;
+    background-image: url("https://images.unsplash.com/photo-1543637005-4d639a4e16de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=581&q=80");
+    background-position: center;
+}
+.card-location{
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.available:hover{
+    width: 383px;
+    height: 243px;
+    margin: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+   
+}

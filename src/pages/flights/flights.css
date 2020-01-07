@@ -1,0 +1,9 @@
+.flights-big-cont{
+width: 85vw;
+background-color: rgb(235, 224, 215);
+height: 100vh;
+position: absolute;
+margin-left: 5vw;
+border-radius: 10px;
+top: 90px;
+}
