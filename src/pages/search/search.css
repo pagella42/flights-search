@@ -26,10 +26,33 @@
     opacity: 0.8;
 }
 
-.search-title{
+.search-title-origin{
 font-size: 1.5em;
-/* display: grid;
-justify-items: left;
-width: 100vw; */
-margin:20px;
+
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.search-title{
+    font-size: 1.5em;
+
+}
+
+.arrowLeftIcon{
+    height: 40px;
+    width:40px;
+    cursor: pointer;
+    color: rgb(14, 37, 37);
+
+}
+
+.title-cont-search{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    width: 100vw;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+
 }

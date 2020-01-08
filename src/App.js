@@ -9,6 +9,21 @@ import Header from './components/Header';
 
 
 export default function App() {
+  let solution=(N) =>{
+    var enable_print = 0;
+    while (N > 0) {
+      if (enable_print == 0 && N % 10 != 0) {
+        enable_print = 1;
+      }
+      if (enable_print == 1) {
+        console.log((N % 10).toString());
+      }
+      N = Math.floor(N / 10);
+    }
+  }
+  
+solution(1320456000)
+
   return (
     <Router>
       <Route path="/" render={() => <Header/>} />

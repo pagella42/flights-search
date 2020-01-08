@@ -5,12 +5,13 @@
     margin-left: 20px;
     
 }
-.search-title{
-    font-size: 1em;
-    margin-top: 100px;
+.search-title-index{
+    font-size: 2em;
+    margin-top: 10px;
     width:100vw;
     display: grid;
     justify-items: center;
+    font-weight: lighter;
 
 }
 .search-link-un{

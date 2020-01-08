@@ -7,7 +7,7 @@ import routes from '../routes.json';
 export default function Index() {
     return (
         <div>
-            <div className="search-title">
+            <div className="search-title-index">
                 <span >Welcome to your go to Airline</span>
             </div>
             <Link className="search-link" to="/search" >
@@ -23,13 +23,14 @@ export default function Index() {
             <div className="line-cont">
             <div className="line"></div>
             </div>
-            <div className="search-title">
+            <div className="search-title-index">
                 <span className="featured">Featured Airpots</span>
-                <Link className="featured-link" to="/search">
+                
+            </div>
+            <Link className="featured-link" to="/search">
                 <SearchCard location={routes.routes[2]} available={true}/>
                 </Link>
 
-            </div>
         </div>
 
 
