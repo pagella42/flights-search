@@ -8,7 +8,7 @@ import Header from './components/Header';
 
 
 
-export default function Home() {
+export default function App() {
   return (
     <Router>
       <Route path="/" render={() => <Header/>} />
